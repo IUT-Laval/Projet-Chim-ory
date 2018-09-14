@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<chimory>
+	<cartes>
+		<carte id="1">P1</carte>
+		<carte id="2">P2</carte>
+		<carte id="3">P3</carte>
+		<carte id="4">P4</carte>
+		<carte id="5">P5</carte>
+		<carte id="6">P6</carte>
+		<carte id="7">RS1</carte>
+		<carte id="8">RS2</carte>
+		<carte id="9">RS3</carte>
+		<carte id="10">RS4</carte>
+		<carte id="11">RS5</carte>
+		<carte id="12">RS6</carte>
+		<carte id="13">Hydrohalogénation</carte>
+		<carte id="14">Hydratation</carte>
+		<carte id="15">Dihalogénation</carte>
+		<carte id="16">Hydrogénation catalytique</carte>
+	</cartes>
+	
+	<caracteristiques>
+		<caracteristique id="0">Régiosélective</caracteristique>
+		<caracteristique id="1">Règle de Markovnikov</caracteristique>
+		<caracteristique id="2">Catalyse acide</caracteristique>
+		<caracteristique id="3">Stéréosélective</caracteristique>
+		<caracteristique id="4">addition anti</caracteristique>
+		<caracteristique id="5">addition syn</caracteristique>
+		<caracteristique id="6">Catalyse hétérogène</caracteristique>
+	</caracteristiques>
+	
+	<associations>
+		<association produit="1" reactifSubstrat="7" reaction="13" difficulte="1">
+			<caracteristique>0</caracteristique>
+			<caracteristique>1</caracteristique>
+		</association>
+		<association produit="2" reactifSubstrat="8" reaction="13" difficulte="1">
+		</association>
+		<association produit="3" reactifSubstrat="9" reaction="14" difficulte="1">
+			<caracteristique>0</caracteristique>
+			<caracteristique>2</caracteristique>
+			<caracteristique>1</caracteristique>
+		</association>
+		<association produit="4" reactifSubstrat="10" reaction="14" difficulte="1">
+		</association>
+		<association produit="5" reactifSubstrat="11" reaction="15" difficulte="1">
+			<caracteristique>3</caracteristique>
+			<caracteristique>4</caracteristique>
+		</association>
+		<association produit="6" reactifSubstrat="12" reaction="16" difficulte="2">
+			<caracteristique>3</caracteristique>
+			<caracteristique>5</caracteristique>
+			<caracteristique>6</caracteristique>
+		</association>
+	</associations>
+	
+</chimory>

@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<chimory>
+	<cartes>
+		<carte id="1" img="P1.png">halogénoalcane</carte>
+		<carte id="2" img="P2.png">halogénoalcane</carte>
+		<carte id="3" img="P3.png">alcool tertiaire</carte>
+		<carte id="4" img="P4.png">alcools secondaires</carte>
+		<carte id="5" img="P5.png">dihalogénoalcane</carte>
+		<carte id="6" img="P6.png">alcane</carte>
+		<carte id="7" img="P7.png">diol vicinal</carte>
+		<carte id="8" img="P8.png">cétone et/ou acide carboxylique</carte>
+		<carte id="9" img="P9.png">cétone et/ou aldéhyde</carte>
+		<carte id="10" img="P10.png">alcène</carte>
+		<carte id="11" img="P11.png">étheroxyde</carte>
+		<carte id="12" img="P12.png">aldéhyde</carte>
+		<carte id="13" img="P13.png">acide carboxylique</carte>
+		<carte id="14" img="P14.png">cétone</carte>
+		<carte id="15" img="P15.png">alcool tertiaire</carte>
+		<carte id="16" img="P16.png">pont disulfure</carte>
+		<carte id="17" img="P17.png">cétal</carte>
+		<carte id="18" img="P18.png">acétal</carte>
+		<carte id="20" img="P20.png">P20</carte>
+		<carte id="21" img="P21.png">P21</carte>
+		<carte id="22" img="P22.png">ester + H2O</carte>
+		<carte id="23" img="P23.png">carboxylate + alcool</carte>	
+		<carte id="24" img="RS1.png">alcène + H-Br</carte>
+		<carte id="25" img="RS2.png">alcène + H-Cl</carte>
+		<carte id="26" img="RS3.png">alcène + H2O</carte>
+		<carte id="27" img="RS4.png">alcène + H2O</carte>
+		<carte id="28" img="RS5.png">alcène + Cl-Cl</carte>
+		<carte id="29" img="RS6.png">alcène + H2</carte>
+		<carte id="30" img="RS7.png">alcène + KMnO4 dilué</carte>
+		<carte id="31" img="RS8.png">alcène + KMnO4 conc.</carte>
+		<carte id="32" img="RS9.png">alcène + O3 / Zn, H2O</carte>
+		<carte id="33" img="RS10.png">alcool</carte>
+		<carte id="34" img="RS11.png">alcool primaire</carte>
+		<carte id="35" img="RS12.png">alcool primaire</carte>
+		<carte id="36" img="RS14.png">alcool secondaire</carte>
+		<carte id="37" img="RS15.png">alcool tertiaire</carte>
+		<carte id="38" img="RS16.png">RS16</carte>
+		<carte id="39" img="RS17.png">cétone + alcool</carte>
+		<carte id="40" img="RS18.png">aldéhyde + alcool</carte>
+		<carte id="41" img="RS19.png">aldéhyde</carte>
+		<carte id="43" img="RS20.png">RS20</carte>
+		<carte id="44" img="RS21.png">RS21</carte>
+		<carte id="45" img="RS22.png">acide carboxylique + alcool</carte>
+		<carte id="46" img="RS23.png">ester + HO-</carte>
+		<carte id="47">hydrohalogénation</carte>
+		<carte id="48">hydratation</carte>
+		<carte id="49">dihalogénation</carte>
+		<carte id="50">hydrogénation catalytique</carte>
+		<carte id="51">oxydation douce</carte>
+		<carte id="52">coupure oxydante</carte>
+		<carte id="53">ozonolyse réductrice</carte>
+		<carte id="54">deshydratation intramoléculaire</carte>
+		<carte id="55">oxydation des alcools</carte>
+		<carte id="56">oxydation des thiols</carte>
+		<carte id="57">cétalisation</carte>
+		<carte id="58">acétalisation</carte>
+		<carte id="59">oxydation</carte>
+		<carte id="60">réduction</carte>
+		<carte id="61">estérification de Fisher</carte>
+		<carte id="62">saponification</carte>
+	</cartes>
+	
+	<caracteristiques>
+		<caracteristique id="0">Régiosélective</caracteristique>
+		<caracteristique id="1">Règle de Markovnikov</caracteristique>
+		<caracteristique id="2">Catalyse acide</caracteristique>
+		<caracteristique id="3">Stéréosélective</caracteristique>
+		<caracteristique id="4">addition anti</caracteristique>
+		<caracteristique id="5">addition syn</caracteristique>
+		<caracteristique id="6">Catalyse hétérogène</caracteristique>
+		<caracteristique id="7">pH neutre ou basique</caracteristique>
+		<caracteristique id="8">Chauffage modéré</caracteristique>
+		<caracteristique id="9">pH acide</caracteristique>
+		<caracteristique id="10">chauffage intense</caracteristique>
+		<caracteristique id="11">règle de Zaitsev</caracteristique>
+		<caracteristique id="12">oxydation ménagée</caracteristique>
+		<caracteristique id="13">oxydation forte</caracteristique>
+		<caracteristique id="14">reversible</caracteristique>
+		<caracteristique id="15">sélective de CO</caracteristique>
+		<caracteristique id="16">lente</caracteristique>
+	</caracteristiques>
+	
+	<associations>
+		<association produit="1" reactifSubstrat="24" reaction="47" difficulte="2">
+			<caracteristique>0</caracteristique>
+			<caracteristique>1</caracteristique>
+		</association>
+		<association produit="2" reactifSubstrat="25" reaction="47" difficulte="1">
+		</association>
+		<association produit="3" reactifSubstrat="26" reaction="48" difficulte="2">
+			<caracteristique>0</caracteristique>
+			<caracteristique>1</caracteristique>
+			<caracteristique>2</caracteristique>
+		</association>	
+		<association produit="4" reactifSubstrat="27" reaction="48" difficulte="1">
+		</association>
+		<association produit="5" reactifSubstrat="28" reaction="49" difficulte="2">
+			<caracteristique>3</caracteristique>
+			<caracteristique>4</caracteristique>
+		</association>
+		<association produit="6" reactifSubstrat="29" reaction="50" difficulte="1">
+			<caracteristique>3</caracteristique>
+			<caracteristique>5</caracteristique>
+			<caracteristique>6</caracteristique>
+		</association>
+		<association produit="7" reactifSubstrat="30" reaction="51" difficulte="2">
+			<caracteristique>3</caracteristique>
+			<caracteristique>5</caracteristique>
+			<caracteristique>7</caracteristique>
+			<caracteristique>8</caracteristique>
+		</association>
+		<association produit="8" reactifSubstrat="31" reaction="52" difficulte="3">
+			<caracteristique>9</caracteristique>
+			<caracteristique>10</caracteristique>
+		</association>
+		<association produit="9" reactifSubstrat="32" reaction="53" difficulte="1">
+		</association>
+		<association produit="10" reactifSubstrat="33" reaction="54" difficulte="2">
+			<caracteristique>0</caracteristique>
+			<caracteristique>11</caracteristique>
+			<caracteristique>2</caracteristique>
+			<caracteristique>10</caracteristique>
+		</association>
+		<association produit="11" reactifSubstrat="34" reaction="54" difficulte="3">
+			<caracteristique>2</caracteristique>
+			<caracteristique>8</caracteristique>
+		</association>
+		<association produit="12" reactifSubstrat="35" reaction="55" difficulte="1">
+			<caracteristique>12</caracteristique>
+		</association>
+		<association produit="13" reactifSubstrat="35" reaction="55" difficulte="2">
+			<caracteristique>13</caracteristique>
+		</association>
+		<association produit="14" reactifSubstrat="36" reaction="55" difficulte="1">
+		</association>
+		<association produit="15" reactifSubstrat="37" reaction="55" difficulte="3">
+		</association>
+		<association produit="16" reactifSubstrat="38" reaction="56" difficulte="3">
+			<caracteristique>14</caracteristique>
+		</association>
+		<association produit="17" reactifSubstrat="39" reaction="57" difficulte="2">
+			<caracteristique>2</caracteristique>
+			<caracteristique>14</caracteristique>
+		</association>
+		<association produit="18" reactifSubstrat="40" reaction="58" difficulte="1">
+			<caracteristique>2</caracteristique>
+			<caracteristique>14</caracteristique>
+		</association>
+		<association produit="13" reactifSubstrat="41" reaction="59" difficulte="1">
+		</association>
+		<association produit="20" reactifSubstrat="43" reaction="60" difficulte="2">
+		</association>
+		<association produit="21" reactifSubstrat="44" reaction="60" difficulte="2">
+			<caracteristique>15</caracteristique>
+		</association>
+		<association produit="22" reactifSubstrat="45" reaction="61" difficulte="1">
+			<caracteristique>14</caracteristique>
+			<caracteristique>2</caracteristique>
+			<caracteristique>16</caracteristique>
+		</association>
+		<association produit="23" reactifSubstrat="46" reaction="62" difficulte="2">
+		</association>
+	</associations>
+	
+</chimory>

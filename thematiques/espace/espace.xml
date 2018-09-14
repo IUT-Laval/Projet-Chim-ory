@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<chimory>
+	<cartes>
+		<carte id="1">Mars</carte>
+		<carte id="2">Terre</carte>
+		<carte id="3">Planètes Rocheuses</carte>
+		<carte id="4">Bételgeuse</carte>
+		<carte id="5">Proxyma Du Centaure</carte>
+		<carte id="6">Etoile</carte>
+		<carte id="7">Lune</carte>
+		<carte id="8">Titan</carte>
+		<carte id="9">Satellite</carte>
+		<carte id="10">Uranus</carte>
+		<carte id="11">Neptune</carte>
+		<carte id="12">Planètes Gazeuses</carte>
+		<carte id="13">Enterprise</carte>
+		<carte id="14">Galactica</carte>
+		<carte id="15">Vaisseaux Spatiaux</carte>
+	</cartes>
+	
+	<caracteristiques>
+	</caracteristiques>
+	
+	<associations>
+		<association produit="1" reactifSubstrat="2" reaction="3" difficulte="1">
+		</association>
+		<association produit="4" reactifSubstrat="5" reaction="6" difficulte="1">
+		</association>
+		<association produit="7" reactifSubstrat="8" reaction="9" difficulte="1">
+		</association>
+		<association produit="10" reactifSubstrat="11" reaction="12" difficulte="1">
+		</association>
+		<association produit="13" reactifSubstrat="14" reaction="15" difficulte="1">
+		</association>
+	</associations>
+	
+</chimory>
